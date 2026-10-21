@@ -2,6 +2,10 @@
 
 A small React app for searching albums in the iTunes catalog. Type an artist or album name and it fetches matching albums from the public [iTunes Search API](https://performance-partners.apple.com/search-api), showing them with high-resolution cover art.
 
+## Live demo
+
+https://saraybalbuena.github.io/React-Itunes/ (served from the `gh-pages` branch). To redeploy, run `npm run build` and publish the `build/` folder to `gh-pages`.
+
 ## Features
 
 - **Album search:** queries `itunes.apple.com/search` and returns up to 20 albums
